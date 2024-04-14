@@ -1,0 +1,14 @@
+{
+    "name": "abdelrahman-gado/simple-di-container",
+    "description": "This is a simple implementation of DI container",
+    "autoload": {
+        "psr-4": {
+            "AbdelrahmanGado\\SimpleDIContainer": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "psr/container": "^2.0"
+    }
+}
