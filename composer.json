@@ -3,12 +3,20 @@
     "description": "This is a simple implementation of DI container",
     "autoload": {
         "psr-4": {
-            "AbdelrahmanGado\\SimpleDIContainer": "src/"
+            "AbdelrahmanGado\\SimpleDIContainer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
         "psr/container": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5"
     }
 }
